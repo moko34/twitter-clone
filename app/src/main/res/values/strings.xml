@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Twitter Clone</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">bEV5LEIqdHTunUpUeK5ryiUW9kThu7nsAjPyjpts</string>
+    <string name="back4app_client_key">3gtogBQ4rqXcT1qwZSwT8i3XaWuNIW4fuL0wy7Qt</string>
+    <string name="sign_up_user">Sign Up</string>
+    <string name="signing_in">Signing In</string>
+
+    <string name="page_index">"%d/%d"</string>
+
+    <string name="post_display_image">Post profile image</string>
+    <string name="post_image_container">Post Image </string>
+    <string name="post_like_image">Like Image</string>
+    <string name="post_comment">Comment</string>
+    <string name="more">more</string>
+    <string name="create_post">Create Post</string>
+    <string name="profile">Profile</string>
+    <string name="add_post_hint">Enter some text</string>
+
+
+    <string name="password_pattern_1">Password must contain at least one lowercase alphabet</string>
+    <string name="password_pattern_2">Password must contain at least one uppercase alphabet</string>
+    <string name="password_pattern_3">Password must contain at least one special character "%$@*#"</string>
+    <string name="password_pattern_4">Password must be at least 8 characters long</string>
+    <string name="password_pattern_5">Password must contain at least one number</string>
+    <string name="status_dialog_success_title">Account Created Successfully</string>
+    <string name="status_dialog_success_message">Please verify your email before login</string>
+    <string name="status_dialog_error_title">Account Creation Failed</string>
+    <string name="status_dialog_error_message">"Account could not be created  \n  %s"  </string>
+    <string name="signing_up">Creating Account</string>
+    <string name="signing_out">Signing Out</string>
+    <string name="log_in_user">Log into your account</string>
+    <string name="email_error">Please enter a valid email address</string>
+    <string name="password_error">Please enter a valid password</string>
+    <string name="password_error_weak">Password is weak</string>
+    <string name="username_error">Please enter a valid username i.e only "_" and lowercase</string>
+    <string name="get_started">Create Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="log_in">Sign In</string>
+    <string name="app_name_second"></string>
+    <string name="sign_up_user_text">Don\'t have an account ? </string>
+    <string name="sign_in_user_text">Already have an account ? </string>
+    <string name="password_view_status">Show</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

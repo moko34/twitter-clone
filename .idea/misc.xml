@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/edittext_wrapper.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/image_selected.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/image_unselected.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/image_wrapper.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/menu_profile.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/post_image_congtainer.xml" value="0.125" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/post_image_container.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/post_item_display_image.xml" value="0.125" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/post_xml.xml" value="0.125" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/vector_add_post.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/vector_comment.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/vector_content_placeholder.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/vector_love.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/vector_person.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/drawable/vector_unllike_post.xml" value="0.1" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/action_bar_title_view.xml" value="0.1515625" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/fragment_app_post.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/fragment_preview_post.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/fragment_user_auth.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/image_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/post_item_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/layout/progress_dialog_view.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/menu/create_post.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Moko/Downloads/TwitterClone/app/src/main/res/menu/login_menu.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

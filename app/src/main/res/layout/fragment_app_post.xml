@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_post.AddPostFragment"
+    >
+
+
+
+        <EditText
+            android:id="@+id/edt_create_post"
+            android:hint="@string/add_post_hint"
+            android:background="@drawable/edittext_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="250dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/alegreya"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:autofillHints=""
+            android:inputType="textMultiLine|textVisiblePassword" />
+
+
+
+
+     <androidx.recyclerview.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:layout_below="@id/edt_create_post"
+         android:layout_marginTop="20dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="10dp"
+         android:layout_marginVertical="5dp"
+         android:background="@color/grey"
+         android:layout_height="wrap_content"
+         android:id="@+id/recyclerview"
+         />
+
+ -->
+
+
+</RelativeLayout>

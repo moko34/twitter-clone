@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.meg7.widget.CustomShapeImageView
+        android:id="@+id/post_person_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:contentDescription="@string/post_display_image"
+        android:maxWidth="60dp"
+        android:maxHeight="80dp"
+        app:shape="circle"
+        android:scaleType="centerCrop"
+        android:background="@drawable/post_item_display_image"
+        android:src="@drawable/vector_person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/post_person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:fontFamily="@font/artifika"
+        android:textSize="18sp"
+        android:padding="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/post_person_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_date"
+        app:layout_constraintStart_toEndOf="@id/post_person_img"
+        android:layout_marginHorizontal="20dp"
+        android:padding="3dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:fontFamily="@font/artifika"
+        android:textColor="@color/grey"
+        app:layout_constraintTop_toBottomOf="@id/post_person_name"
+        />
+
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/post_person_img"
+        android:background="@drawable/post_image_container"
+        android:src="@drawable/vector_content_placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="20dp"
+        android:maxHeight="300dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/post_image_container"
+        />
+
+    <ImageButton
+        android:id="@+id/post_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/vector_love"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/post_like_image"
+        app:layout_constraintTop_toBottomOf="@id/post_image" />
+
+    <ImageButton
+        android:contentDescription="@string/post_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/post_like"
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@id/post_image"
+        android:src="@drawable/vector_comment"/>
+
+    <TextView
+        android:id="@+id/likes_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/post_like"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/post_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/likes_count"
+        android:textSize="16sp"
+        android:fontFamily="@font/alegreya"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:gravity="start"
+        android:padding="8dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more"
+        android:gravity="end"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        app:layout_constraintEnd_toEndOf="@id/post_content"
+        app:layout_constraintBottom_toBottomOf="@id/post_content"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
